@@ -1,2 +1,3 @@
-# -C-file-in-the-studying-
-study c language and make some files
+# 算法学习
+平时刷PAT和牛客网算法题的一些题目解法
+还在更新......
