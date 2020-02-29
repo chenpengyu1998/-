@@ -23,4 +23,11 @@ public class test {
 		int num = scanner.nextInt();
 		System.out.println(jc(num));
 	}
+	/*
+		input: 5  return: 120 (大于1情况，但结果小于2的31次方)
+		input: -1 return: “输入违规数据 0” (情况小于0情况即违规数据）
+		input 0   return: 0
+	
+	
+	*/
 }
