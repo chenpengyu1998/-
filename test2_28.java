@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class test {
+public class test2_28 {
 	
 	public static int jc(int i) {
 		if(i<0) {
