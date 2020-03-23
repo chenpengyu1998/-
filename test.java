@@ -1,30 +1,40 @@
-package sort_test;
-
-
-//https://www.cnblogs.com/onepixel/articles/7674659.html
-//参考文档
-
+package leetcode;
 
 public class test {
-	private static int[] arrs= {1,9,2,8,7,3,4,6,5,0};
 	
-	public static  void print() {
-		for(int i=0;i<arrs.length;i++) {
-			System.out.print(arrs[i]+"\t");
+	
+	public static int test(String[] str) {
+		int length=0;
+		for(String s:str) {
+			length+=s.length();
 		}
+		
+		for(int i=0;i<str.length;i++) {
+			boolean[] dp = new boolean[length+1];
+			dp[0]=true;
+			for(int y = i+1;y<str.length;y++) {
+				
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		return 0;
 	}
+	
+	
+	
+	
+	
 	
 	
 	
 	public static void main(String[] args) {
-		quick test = new quick();
-		test.setA(arrs);
-		test.sort(0,arrs.length-1);
-		arrs=test.getA();
-		print();
 		
 	}
-	
-	
-	
 }
